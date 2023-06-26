@@ -3440,8 +3440,8 @@ const mainnetChainInfos: SimplifiedChainInfo[] = [
     explorerUrlToTx: "https://explorer.8ball.info/8ball/tx/{txHash}",
   },
   {
-    rpc: "https://arkh-rpc.kynraze.com",
-    rest: "https://arkh-api.kynraze.com",
+    rpc: "https://rpc.arkh.nodestake.top",
+    rest: "https://api.arkh.nodestake.top",
     chainId: "arkh",
     chainName: "Arkhadian",
     bip44: {
@@ -3465,7 +3465,7 @@ const mainnetChainInfos: SimplifiedChainInfo[] = [
       },
     ],
     features: ["ibc-transfer", "ibc-go"],
-    explorerUrlToTx: "https://explorer.kynraze.com/arkhadian/tx/{txHash}",
+    explorerUrlToTx: "https://explorer.nodestake.top/arkh/tx/{txHash}",
   },
   {
     rpc: "https://rpc.mainnet.noble.strange.love",

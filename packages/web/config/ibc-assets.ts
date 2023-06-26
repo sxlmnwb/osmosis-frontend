@@ -1599,8 +1599,8 @@ export const IBCAssetInfos: (IBCAsset & {
       },
       {
         counterpartyChainId: "arkh",
-        sourceChannelId: "channel-648",
-        destChannelId: "channel-12",
+        sourceChannelId: "channel-1501",
+        destChannelId: "channel-62",
         coinMinimalDenom: "arkh",
       },
       {
