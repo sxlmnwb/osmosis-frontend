@@ -421,7 +421,19 @@
     "validatorHeader": "Validator squad",
     "edit": "edit",
     "stake": "Stake OSMO",
-    "unstake": "Unstake OSMO"
+    "unstake": "Unstake OSMO",
+    "validatorSquad": {
+      "title": "Validator Squad",
+      "description": "Select the validators you’d like to delegate to. Once complete, continue to stake. You may edit your validator set at any time.",
+      "searchPlaceholder": "Search for a validator",
+      "button": "Set Squad",
+      "column": {
+        "validator": "Validator",
+        "myStake": "My Stake",
+        "votingPower": "Voting Power",
+        "commission": "Commission"
+      }
+    }
   },
   "superfluidValidator": {
     "bondedAmount": "Bonded Amount",
@@ -493,6 +505,10 @@
   "viewExplorer": "View explorer",
   "waitingForTransaction": "Waiting for transaction to be included in the block",
   "highPoolInflationWarning": "High APRs may result from inflationary rewards. Proceed with caution.",
+  "streamswap": {
+    "description": "New streams for QSR/ATOM and QSR/OSMO are live on Streamswap.",
+    "link": "Check them out."
+  },
   "seo": {
     "404": {
       "title": "404 - Page not found",

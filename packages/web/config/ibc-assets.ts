@@ -1602,6 +1602,7 @@ export const IBCAssetInfos: (IBCAsset & {
         sourceChannelId: "channel-1501",
         destChannelId: "channel-62",
         coinMinimalDenom: "arkh",
+        isUnstable: true,
       },
       {
         counterpartyChainId: "quicksilver-2",
@@ -1818,6 +1819,7 @@ export const IBCAssetInfos: (IBCAsset & {
         sourceChannelId: "channel-783",
         destChannelId: "channel-0",
         coinMinimalDenom: "unls",
+        isVerified: true,
       },
       {
         //ROAR
@@ -1866,6 +1868,23 @@ export const IBCAssetInfos: (IBCAsset & {
         sourceChannelId: "channel-874",
         destChannelId: "channel-10",
         coinMinimalDenom: "untrn",
+      },
+      {
+        //CASA
+        counterpartyChainId: "juno-1",
+        sourceChannelId: "channel-169",
+        destChannelId: "channel-47",
+        coinMinimalDenom:
+          "cw20:juno1ju8k8sqwsqu5k6umrypmtyqu2wqcpnrkf4w4mntvl0javt4nma7s8lzgss",
+        ics20ContractAddress:
+          "juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+      },
+      {
+        counterpartyChainId: "quasar-1",
+        sourceChannelId: "channel-688",
+        destChannelId: "channel-1",
+        coinMinimalDenom: "uqsr",
+        isVerified: true,
       },
     ].filter((ibcAsset) => {
       // validate IBC asset config
