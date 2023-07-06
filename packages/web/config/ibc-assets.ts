@@ -1602,7 +1602,7 @@ export const IBCAssetInfos: (IBCAsset & {
         sourceChannelId: "channel-1501",
         destChannelId: "channel-62",
         coinMinimalDenom: "arkh",
-        isUnstable: true,
+        isVerified: true,
       },
       {
         counterpartyChainId: "quicksilver-2",
