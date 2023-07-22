@@ -1,7 +1,6 @@
+import { IS_TESTNET } from "~/config/env";
+import { SourceChainTokenConfigs as AxelarSourceChainConfigs } from "~/integrations/axelar";
 import { IBCAsset } from "~/stores/assets";
-
-import { SourceChainTokenConfigs as AxelarSourceChainConfigs } from "../integrations/axelar";
-import { IS_TESTNET } from "./env";
 
 export const UNSTABLE_MSG = "Transfers are disabled due to instability";
 
@@ -1813,6 +1812,7 @@ export const IBCAssetInfos: (IBCAsset & {
         sourceChannelId: "channel-781",
         destChannelId: "channel-0",
         coinMinimalDenom: "ulore",
+        isVerified: true,
       },
       {
         counterpartyChainId: "pirin-1",
